@@ -1,0 +1,132 @@
+
+.center{
+	position: ;
+	top: 30%;
+	width: 100%;
+	font-family: tahoma;
+	text-align: center;
+	
+
+}
+
+
+
+#clock {
+	display: flex;
+	width: 670px;
+	margin: 0 auto;
+	margin-top: 10%;
+
+}
+
+#clock div{
+	position: relative;
+	padding:23px 16px;
+	margin: 0 5px;
+	background-color: white;
+	color:gold;
+	width:50px;
+	height: 50px; 
+   text-align: center;            
+   padding-top: 10px;
+   border:2px solid gold;
+   border-radius: 2px;
+}
+
+
+
+
+
+
+#clock div span{
+	text-align: center;
+	display: block;
+}
+
+#clock div span:nth-child(1){
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#clock div span:nth-child(2){
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 10px;
+	color:grey;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
+#clock {
+  display: flex;
+  width:300px;
+  margin: 0 auto;
+  margin-top: 10%;
+
+}
+
+
+#clock div{
+  position: relative;
+  padding: 0px;
+  margin: 0 5px;
+  background-color: white;
+  width:80px;
+  height: 80px; 
+   text-align: center;            
+   padding-top: 10px;
+   border-radius: 2px;
+}
+
+#clock div span:nth-child(1){
+  font-size: 30px;
+  font-weight: 00;
+}
+
+#clock div span:nth-child(2){
+  font-size: 18px;
+  font-weight: 00;
+  margin-top: 10px;
+}
+
+.date-cont-countdown {
+           margin-left: 50px;
+}
+
+.project-td-countdown{
+  width: 100%;
+}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+	
+	#clock div{
+  position: relative;
+  padding: 0px;
+  margin: 0 5px;
+  background-color: white;
+  width:50px;
+  height: 80px; 
+   text-align: center;            
+   padding-top: 10px;
+   border-radius: 2px;
+}
+
+#clock div span:nth-child(1){
+  font-size: 23px;
+  font-weight: 00;
+}
+
+#clock div span:nth-child(2){
+  font-size: 16px;
+  font-weight: 00;
+  margin-top: 10px;
+}
+	
+	
+}
+

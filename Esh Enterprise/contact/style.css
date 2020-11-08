@@ -1,0 +1,138 @@
+
+.get-in-touch {
+    
+    text-align:center;
+    height: auto;
+    width: 100%;
+}
+
+.get-in-touch-hd {
+                  font-family:tahoma;
+                  font-size:35px;
+                  color:;
+                  padding-bottom: 15px;
+                      
+}
+
+.get-in-touch-container {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.get-in-touch-container main{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 100px;
+  width: 100%;
+  margin: 50px 15px 0px 0px;
+    
+}
+
+
+.form {  
+        
+        width:450px; 
+        height:48px; 
+        padding-left:8px;
+        border: 1px solid silver;
+        border-left: 5px solid gold;
+         display: inline-flex;
+         background:none;
+         opacity: ;
+        font-family:arial;
+        transition:background-color 1000ms; color:1000ms;
+        background-color: rgba();
+        font-size: 20px;
+        position: relative;
+       
+
+
+    }
+
+    
+ 
+ .submit { 
+             display:block; 
+             width:450px; 
+             height:48px; 
+             background:gold;
+             border: 2px gold solid;
+             font-family:sans-serif; 
+             color:white; 
+             font-size:20px;
+             margin: 20px auto;
+                  
+         }
+
+  .submit:hover{
+                cursor: pointer; 
+                transition:0.3s; 
+                background:gold;
+                color: white;
+                opacity: 0.8;
+            }
+
+    
+   .textarea  {
+               border: 1px solid silver;
+               border-left: 4px solid gold;
+               width:450px; 
+               height:200px; 
+               font-family:arial;
+               font-size: 20px;
+                padding-left: 8px;
+          
+          }
+
+
+
+
+.get-in-touch-address{
+  margin: 0 70px;
+}
+
+
+.contact-widget .cw-item {
+  margin: 0 auto;
+  background: #ffffff;
+  margin-bottom: 11px;
+  -webkit-box-shadow: 0px 8px 35px 10px #E8E8E8;
+  box-shadow: 0px 8px 35px 10px #E8E8E8;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  width: 70%;
+  font-family: leelawadee;
+}
+
+.contact-widget .cw-item .ci-icon {
+  float: left;
+  margin-top: ;
+}
+
+.contact-widget .cw-item .ci-icon i {
+  font-size: 40px;
+
+  
+}
+
+.contact-widget .cw-item .ci-text {
+  display: table;
+  margin: 0 auto;
+}
+
+.contact-widget .cw-item .ci-text span {
+  color: #b2b2b2;
+  font-size: 16px;
+}
+
+.contact-widget .cw-item .ci-text p {
+  font-size: 18px;
+  color: #252525;
+  margin-bottom: 0;
+  text-align: center;
+}
+

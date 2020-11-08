@@ -1,0 +1,442 @@
+@media only screen and (max-width: 1150px){
+
+   .services-container{
+	max-width: 900px;
+}
+
+
+.services-container main{
+	
+	grid-template-columns: repeat(1,1fr);
+
+}
+}
+
+@media only screen and (max-width: 992px){
+
+.division-container{
+	
+	
+}
+
+.division-container main{
+	grid-template-columns: repeat(2,1fr);		
+}
+
+
+.get-in-touch-container main{
+
+  grid-template-columns: repeat(1,1fr);
+  
+    
+}
+
+.exco-container {
+                     max-width: 700px;
+      
+}
+.exco-container main{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 30px;
+  margin: 0 15px;
+  margin-top: 70px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 930px){
+.inner-copyright {
+	grid-template-columns: repeat(1,1fr);
+	display: grid;
+	text-align: center;
+
+}
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+
+
+.name  {
+    display: block;
+    width: 100%;
+} 
+.name img{
+	width: 80%;
+	height: 120px;
+}
+.navbar  {
+        width: 100%;
+        display: none;
+}
+
+.navbar .nav-list li {
+            display: block;
+            text-align: center;
+            width: 100%;          
+}
+
+.navbar .nav-list li a{
+	width: 100%;
+}
+
+.dropdown,.dropbtn {
+	width: 100%;
+}
+
+.dropdown-content {
+   position: relative;
+}
+
+
+.bar { 
+        display: block;
+
+
+}
+
+.active {
+        display: block;
+}
+
+
+.division-container{
+	
+	
+}
+
+.division-container main{
+	grid-template-columns: repeat(2,1fr);
+	
+		
+}
+
+
+.about-container {
+	max-width: 600px;
+}
+.about-section main{
+	grid-template-columns: repeat(1,1fr);
+}
+.column .bigger-img{
+	display: none;
+	
+}
+
+
+
+
+
+.store-container{
+	max-width: 600px;
+	
+	
+}
+
+.store-container .big-item {
+	grid-template-columns: repeat(1,1fr);
+}
+
+.store-container-list-tumbnail{
+	width: 92%;
+}
+
+
+
+.blog-container {
+                  
+                     max-width: 800px;
+                   }
+
+
+.blog-container main{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+
+.footer-item{
+    
+      width:50% ;
+      
+}
+}
+
+@media only screen and (max-width: 560px){
+
+.division-container{
+	
+	
+}
+
+.division-container main{
+	grid-template-columns: repeat(1,1fr);
+	
+		
+}
+
+
+
+.store-container .big-item	h4{
+       font-size: 30px;
+	}
+
+.store-container .big-item	h2{
+       font-size: 25px;
+	}
+
+	
+
+
+	.about-container {
+	max-width: 400px;
+}
+.about-section main{
+	grid-template-columns: repeat(1,1fr);
+}
+
+.exco-container {
+                     max-width: 350px;
+      
+}
+.exco-container main{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+  }
+
+.services-list  {
+	max-width: 280px;
+}
+
+.services-list tr {	
+	 grid-template-columns: repeat(1, 1fr);
+}	
+
+
+.blog-container {
+                  max-width: 600px;
+                   }
+
+
+.blog-container main{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+.form {
+	width: 80%;
+}
+.textarea {
+	width: 80%;
+}
+
+.submit {
+	width: 80%;
+}
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+
+}
+
+@media only screen and (max-width: 414px){
+	
+.text-banner {
+	font-size: 40px;
+	font-family: impact;
+	color: white;
+	word-spacing: 8px;
+	padding-left:6%;
+	padding-top: 180px;
+
+}
+
+.text-banner span{
+	font-family: calibri;
+	word-spacing:0px;
+	font-size: 24px;
+
+}
+
+.about-container {
+	max-width: 300px;
+}
+.about-section main{
+	grid-template-columns: repeat(1,1fr);
+}
+
+
+.store-container-list {
+	max-width: 330px;
+	
+
+}
+
+.store-container-list main {
+	grid-template-columns: repeat(1,1fr);
+	
+
+
+}
+
+.exco-container {
+                     max-width: 350px;
+                     width: 320px;
+      
+}
+.exco-container main{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+  }
+
+
+
+	.blog-container {
+                  max-width: 500px;
+                   }
+
+
+.blog-container main{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+	.footer-item{
+     width:100% ;
+      
+}
+
+
+/*****************************   About Us Page   ****************/
+.text-about-banner span{
+	font-family: calibri;
+	word-spacing:0px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 600;
+
+}
+
+.about-ceo-container .ceo-text{
+  width: 80%;
+
+}
+
+
+
+.get-in-touch-hd {
+                  font-family:tahoma;
+                  font-size:28px;
+                  color:;
+                  padding-bottom: 15px;
+                      
+}
+.form {
+	width: 70%;
+
+
+}
+.textarea {
+	width: 70%;
+}
+
+.submit {
+	width: 70%;
+}
+
+
+	}
+
+
+@media only screen and (max-width: 380px){
+.about-hd {
+	font-size: 40px;
+}
+
+.section-head {      
+ font-size:20px;
+}
+
+
+.blog-head h3{
+	font-size: 40px;
+}
+	.form {
+	width: 70%;
+    margin-left: -70px;
+
+}
+.textarea {
+	width: 70%;
+	margin-left: -70px;
+}
+
+.submit {
+	width: 70%;
+
+}
+	
+}
+
+
+@media only screen and (max-width: 320px){
+	
+
+
+.about-container {
+	max-width: 250px;
+}
+.about-section main{
+	grid-template-columns: repeat(1,1fr);
+}
+
+.store-container-list-tumbnail{
+	width: 88%;
+}
+
+
+
+
+
+
+
+
+
+.form {
+	width: 60%;
+    margin-left: -70px;
+
+}
+.textarea {
+	width: 60%;
+	margin-left: -70px;
+}
+
+.submit {
+	width: 60%;
+
+}
+
+}
+
+@media only screen and (max-width: 305px){
+	.store-container-list-tumbnail{
+	width: 80%;
+}
+
+}
+
+@media only screen and (max-width: 285px){
+	.store-container-list-tumbnail{
+	width: 73%;
+}
+
+}
